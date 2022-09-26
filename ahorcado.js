@@ -12,4 +12,7 @@ function escogerPalabraSecreta(){
 
 function iniciarJuego(){
     document.getElementById("iniciar-juego").style.display = "none";
+    escogerPalabraSecreta()
+    dibujarCanvas()
+    dibujarLineas()
 }
